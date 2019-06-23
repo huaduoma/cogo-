@@ -1,0 +1,523 @@
+.bg{
+    width: 100%;
+    position: relative;
+    top: 80px;
+    background: url('../images/video_bg.jpg') no-repeat center;
+    min-width: 1232px;
+    min-height: 675px;
+}
+
+.bg .box{
+    width: 100%;
+    position: absolute;
+    top: 228px;
+}
+.bg .box .container{
+    width: 1232px;
+    margin: 0 auto;  
+}
+.bg .box .container .video_tit img{
+    width: 290px;
+    height: 111px;
+    margin-bottom: 86px;
+}
+.bg .box .container .video_heade{
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* 左边栏 */
+.bg .box .container .con_left{
+    width: 874px;
+    margin: 18px 18px 0 0;
+}
+.con_left .hot_video{
+    width: 874px;
+    height: 327px;
+    margin-bottom: 18px;
+}
+/* 轮播图开始 */
+.con_left .hot_video .video_banner{
+    width: 534px;
+    height: 327px;
+    position: relative;
+    overflow: hidden;
+}
+.con_left .hot_video .video_banner ul{
+    width: 2136px;
+    position: absolute;
+    left: 0;
+}
+.con_left .hot_video .video_banner ul li{
+    width: 534px;
+    height: 327px;
+    float: left;
+}
+.con_left .hot_video .video_banner ol{
+    width: 120px;
+    height: 14px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px
+
+}
+.con_left .hot_video .video_banner ol li{
+    width: 12px;
+    height: 12px;
+    background-color: #574F44;
+    float: left;
+    border-radius: 6px;
+    margin-right: 16px;
+}
+/* 轮播图结束 */
+/* 热门视频推荐开始 */
+
+.con_left .hot_video .recommened_box{
+    width: 308px;
+    height: 287px;
+    background: url('../images/recommend_bg.jpg')no-repeat;
+    padding: 20px 16px;
+}
+.recommened_box .recommend_tit h2{
+    width: 223px;
+    height: 22px;
+    background: url('../images/recommend_tit.png')no-repeat;
+}
+.newvideo .newvideo_list li,
+.recommened_box .recommend_list li{
+    float: left;
+    margin: 24px 4px 0px 4px;
+    position: relative;
+    text-align: center;
+}
+.newvideo_list li img,
+.recommend_list li img{
+    width: 146px;
+    height: 75px;
+}
+.newvideo_list li a img:nth-child(2),
+.recommend_list li a img:nth-child(2){
+    position: absolute;
+    left: 52px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.newvideo_list li p,
+.recommend_list li p{
+    width: 146px;
+    height: 20px;
+    margin-top: 12px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #e1e2e4;
+}
+/* 热门视频推荐结束 */
+/* 热门标签开始 */
+.con_left .hot_tab{
+    width: 832px;
+    height: 236px;
+    padding: 28px 0 0 42px;
+}
+.con_left .hot_tab h2{
+    width: 135px;
+    height: 22px;
+    margin-bottom: 28px;
+    background: url('../images/hot_tab_tit.png')no-repeat;
+}
+.con_left .hot_tab .tab_name{
+    width: 832px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+.hot_tab .tab_name a{
+    display: inline-block;
+    width: 83px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    margin: 3px;
+    color: #856931;
+    text-align: center;
+    background: url('../images/d_tab_bg.png')no-repeat;
+    
+}
+.con_left .hot_tab .tab_list{
+    width: 832px;
+    height: 21px;
+    margin-bottom: 12px;
+}
+.hot_tab .tab_list h3{   
+    width: 56px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #856931;
+}
+.hot_tab .tab_list .tab_sublist a{ 
+    color: #666;
+    padding: 0 8px;
+    margin: 0 3px;
+    font-size: 14px;
+}
+/* 热门标签结束 */
+/* 所有视频开始 */
+.con_left .video_box{
+    width: 832px;
+    padding: 0 0 42px 42px;
+}
+.con_left .video_box ul{
+    width: 100%;
+}
+.video_box ul{
+    display: none;
+}
+.video_box ul li{
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 0 5px 20px;
+}
+.video_box li img{
+    width: 182px;
+    height: 110px;
+}
+.video_box li a img:nth-child(2){
+    position: absolute;
+    left: 70px;
+    top: 35px;
+    width: 40px;
+    height: 40px;
+}
+.video_box li p{
+    width: 182px;
+    height: 20px;    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    /* 强制一行显示 超出隐藏 省略号 */
+    margin-top: 12px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #40424d;
+}
+
+
+/* 所有视频结束 */
+/* 页码开始 */
+.con_left #page{
+    width: 874px;
+    height: 30px;
+    padding: 10px 0 50px;
+    text-align: center;
+    /* 行内块元素可居中 */
+}
+.con_left #page ul{
+    width: 100%;    
+}
+.con_left #page ul li{
+    display: inline;
+    margin: 0 3px;
+}
+.con_left #page ul li a{
+    font-size: 14px;
+    color: #282828;
+    padding: 3px 6px;
+    border: 1px solid #c9c9c9;
+}
+/* 页码结束 */
+
+
+
+/* 右边栏 */
+.bg .box .container .con_right{
+    width: 340px;
+    margin-top: 18px;
+}
+
+/* 下载框开始 */
+.con_right .downlaod{
+    width: 340px;
+    height: 217px;
+}
+/* 计费框开始 */
+.con_right .count_box{
+    width: 340px;
+    margin-bottom: 2px;
+}
+.count_box li{
+    float: left;
+    width: 170px;
+    height: 80px;
+    position: relative;
+    background: url('../images/yuanlai.jpg')no-repeat;
+    font-size: 17px;
+    
+}
+
+.count_box li:hover{
+    background: url('../images/yuanlai-w.png')no-repeat;
+    
+}
+.count_box li a{
+    display: block;
+    width: 170px;
+    height: 78px; 
+    border-bottom: 2px solid #000;
+
+}
+.count_box li:nth-child(odd) a{
+    width: 169px;
+    border-right: 1px solid #000;
+}
+.count_box li:nth-child(7) a,
+.count_box li:nth-child(8) a{
+    height: 80px;
+    border-bottom: none;
+}
+.count_box li img{
+    position: absolute;
+    left: 18px;
+    top: 25px;
+    transition: all 1s ease;  
+}
+.count_box li a .img1{
+    z-index: 10;
+}
+.count_box li a:hover .img1{
+    display: none;
+}
+.count_box li a:hover .img2{
+    transform: rotateY(-360deg); 
+}
+.count_box li p{
+    position: absolute;
+    width: 120px;
+    left: 42px;
+    top: 25px;
+    font-size: 17px;
+    margin-left: 20px;
+    color: #fff;
+}
+.count_box li a:hover p{
+    color: #282E48;  
+}
+
+/* 游戏资料框开始 */
+.con_right .guides{
+    width: 288px;
+    padding: 18px 22px 10px 30px;
+    background-color: #e5e6e7;    
+}
+.guides .guides_tit{
+    width: 100%; 
+    position: relative;
+
+}
+.guides .guides_tit a h2{
+    width: 288px;
+    height: 22px;
+    background: url('../images/guides_tit.png')no-repeat;
+}
+.guides .guides_tit a:nth-child(2) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 3px 0 5px;
+    font-size: 12px;
+    color: #181a25;
+    border: 1px solid #181a25;
+    text-align: left;
+}
+
+.guides .guides_tit a i{
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    background: url('../images/more.png')no-repeat;
+    transition: all .5s;
+}
+.guides .guides_tit a i:hover{
+    transform: scale(1.2) rotateZ(180deg);
+    /* 图片旋转和放大 */
+}
+
+.guides .guides_list {
+    width: 100%;
+    margin-top: 10px;
+}
+.guides .guides_list h3{
+    text-align: left;
+    font-size: 16px;
+    margin: 0 9px 5px 0;
+}
+.guides .guides_list li{
+    float: left;
+    margin: 0 9px 5px 0; 
+}
+.guides .guides_list li a{
+    display: block;
+    height: 20px;
+    padding-left: 10px;
+    color: #404040;
+    font-size: 14px;
+    background: url('../images/line_icon.jpg')no-repeat left center;
+}
+.guides .guides_list li a:hover{
+    text-decoration: underline;
+}
+.guides .guides_box{
+    width: 100%;
+    margin-top: 10px;
+}
+.guides .guides_box li{
+    height: 62px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+.guides .guides_box li img{ 
+    height: 46px;
+}
+.guides .guides_box li:nth-child(1) img{ 
+    width: 64px;
+}
+.guides .guides_box li:nth-child(2) img{ 
+    width: 52px;
+    margin: 0 19px;
+}
+.guides .guides_box li:nth-child(3) img{ 
+    width: 50px;
+    margin: 0 10px;
+}
+.guides .guides_box li:nth-child(4) img{ 
+    width: 44px;
+    margin: 0 10px;
+}
+
+/* 百科栏 和 新手栏开始 */
+.colunm {
+    width: 292px;
+    padding: 24px 24px 30px;
+    margin-top: 10px;
+    background-color: #e5e6e7;
+}
+
+
+.colunm h2{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 24px;
+    background: url('../images/column01_tit.png')no-repeat;
+}
+.colunm:nth-child(1)>h2{
+    background: url('../images/column01_tit.png')no-repeat;
+}
+/* .colunm:nth-child(2)>h2{
+    background: url('../images/column02_tit.png')no-repeat;
+} */
+.colunm ul li {
+    width: 100%;
+    position: relative;
+}
+.colunm li a:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    color: #3e3e3e;
+}
+.colunm li a:nth-child(1) p{
+    font-size: 14px;
+}
+.colunm li a:nth-child(1) span{
+    font-size: 12px;
+}
+.colunm li a:nth-child(2){
+    display: block;
+    width: 292px;
+    height: 55px;
+    background-color: #A2AFC3;
+    padding: 6px 24px 4px 24px;
+    margin-left: -24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.colunm li:hover a:nth-child(2){
+    display: block;
+}
+.colunm li:hover a:nth-child(1){
+    height: 65px;
+}
+.colunm li a:nth-child(2) img {
+    width: 90px;
+    height: 55px;
+}
+.colunm li a:nth-child(2) p {
+    width: 170px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 32px;
+    font-size: 12px;
+}
+
+/* 最新视频 */
+.newvideo{
+    margin-top: 10px;
+    width: 308px;
+    background-color: #e5e6e7;
+    padding: 20px 16px;
+    margin-bottom: 2px;
+}
+.newvideo .newvideo_tit h2{
+    width: 223px;
+    height: 22px;
+    background: url('../images/newvideos_tit.png')no-repeat;
+}
+.newvideo .newvideo_list li p{
+    color: #3e3e3e;
+}
+.newvideo>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #657ca2;
+    margin-top: 25px;
+}
+/* 最新视频结束 */
+/* 游戏特色开始 */
+.game_nav {
+    width: 340px;
+
+}
+.game_nav img{
+    width: 340px;
+    margin-bottom: 6px;
+}
+/* 游戏特色结束 */
+/* 锚点定位 */
+.top_btn{
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    left: 65%;
+    bottom: 270px;
+    background: url('../images/top_icon.png')no-repeat;
+    z-index: 100;
+    margin-left: 387px;
+}
+.top_btn>a {
+    display: block;
+    width: 52px;
+    height: 52px;
+}

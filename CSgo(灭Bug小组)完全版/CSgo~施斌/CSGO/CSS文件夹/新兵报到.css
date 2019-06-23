@@ -1,0 +1,261 @@
+/* 顶部通栏开始 */
+.boxNav {
+    /* 固定定位 */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid #6b9ac8;
+    background-color: rgb(17, 21, 33);
+    z-index:99 ;
+}
+
+.topNav {
+    width: 1230px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.topNav h1 {
+    width: 157px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 8px 0px 0px 23px;
+    margin-right: 100px;
+}
+
+.topNav h1 img {
+    width: 134px;
+    height: 64px;
+}
+
+.boxNav .navList {
+    float: left;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.boxNav .navList a {
+    box-sizing: border-box;
+    float: left;
+    height: 57px;
+    color: white;
+    margin: 0px 25px;
+}
+
+.boxNav .navList a:hover {
+    border-bottom: 3px solid rgb(86, 110, 149);
+}
+
+.rightNav {
+    margin-right: 32px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.rightNav a {
+    color: rgb(26, 65, 134);
+}
+
+
+/* 顶部通栏结束 */
+.leftBox {
+    width: 199px;
+    float: left;
+}
+.leftBox ul {
+    border-right: 1px solid black;
+    font-size: 16px;  
+}
+.leftBox ul li {
+    width: 199px;
+    height: 64px;
+    background-color: #22272b;
+    line-height: 64px;
+    border-bottom: 1px solid #0b0d10;
+    overflow: hidden;
+}
+.leftBox ul li:nth-child(2) {
+    background-color: #6a4e0a;
+}
+.leftBox ul li i {
+    background: url("../游戏资料图片/游戏背景/icon.png");
+    width: 30px;
+    height:30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 41px;
+    margin-right: 24px;
+}
+.leftBox ul li a {
+    color:#b5d5ef;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.leftBox ul li:nth-child(2) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -60px;
+}
+.leftBox ul li:nth-child(3) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -130px;
+}
+.leftBox ul li:nth-child(4) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -196px;
+}
+.leftBox ul li:nth-child(5) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -256px;
+}
+.leftBox ul li:nth-child(6) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -330px;
+}
+.leftBox ul li:nth-child(7) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -390px;
+}
+.leftBox ul li:nth-child(8) i{
+    background: url("../游戏资料图片/游戏背景/icon.png") 0 -450px;
+}
+
+.rightBox {
+    width: 100%;
+    padding-bottom: 130px;
+    padding-left: 199px;
+    margin-top: 100px;
+    background: url('../游戏资料图片/新兵报道/bg_recruit.jpg') no-repeat ;
+    background-size:cover ; 
+}
+.rightBox .rightBox1 {
+    padding-left: 90px;
+    width: 1000px;
+    height: 575px;
+    float: left;
+    /* overflow: hidden; */
+}
+.rightBox .gameBg {
+    float: left;
+    margin-left: 90px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+} 
+
+.rightBox .rightBox1 #ul1 {
+    margin-bottom: 30px;
+}
+.rightBox .rightBox1 #ul1 li{
+    float: left;
+    margin-right: 1px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #3a404c;
+    color: #e1eaf1;
+    cursor: pointer;
+}
+
+
+.rightBox .rightBox1 #screen {
+    overflow: hidden;
+    height: 500px;
+    /* 需要注释的滚动条 */
+    /* overflow: auto; */
+    position: relative;
+    
+}
+.rightBox .rightBox1 #ul2 li {
+    overflow: hidden;
+    height: 500px;
+    overflow: auto;
+
+}
+.rightBox .rightBox1 #ul2 li::-webkit-scrollbar
+{
+    width: 5px;
+    height: 16px;
+    background-color: #F5F5F5;
+}
+.rightBox .rightBox1 #ul2 li::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.rightBox .rightBox1 #ul2 li::-webkit-scrollbar-thumb
+{   
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+/* 滚动条结束 */
+.rightBox .rightBox1 #ul2 {
+    position: absolute;
+    left: 0;
+}
+.rightBox .rightBox1 #ul2 i{
+    display: inline-block;
+    width: 5px;
+    height: 14px;
+    background-color: #e1eaf1;
+    margin-right: 10px;
+}
+.rightBox .rightBox1 #ul2 li {
+    width: 900px;
+    color:#e1eaf1;
+    font-size: 18px;
+    float: left;
+    padding-right: 30px; 
+    padding-left: 50px;
+    margin-right: 10px;
+}
+.rightBox .rightBox1 #ul2 li>div {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.rightBox .rightBox1 #ul2 li img {
+    display: block;
+    margin: 30px auto;
+}
+ .rightBox1 #ul2 li p {
+     font-size: 14px;
+     text-indent: 2em ;
+    line-height: 28px;
+}
+.rightBox1 #ul2 li span {
+    color: #a28642;
+    font-size: 16px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.rightBox1 #ul2 li .img4 {
+    font-weight: normal;
+    width: 660px;
+    margin: 30px auto;
+}
+.rightBox1 #ul2 li .img4 .img41 {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+.rightBox1 #ul2 li .img4 .img41 img {
+    margin: 0;
+}
+.rightBox1 #ul2 li .img4 p {
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+.rightBox1 #ul2 li .p11{
+    text-align: center;
+}
+.rightBox1 #ul2 li .tab1 {
+    display: block;
+    width: 385px;
+    margin: 30px auto;
+    text-align: center;
+    border-color: black;
+} 

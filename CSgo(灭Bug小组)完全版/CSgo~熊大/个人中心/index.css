@@ -1,0 +1,280 @@
+.bgc{
+    width: 100%;
+    height: 800px;
+    background: url('./img/bg.jpg') no-repeat center top;
+}
+.centerbox{
+    position: relative;
+    width: 1000px;
+    height: 815px;
+    margin: 0 auto;
+}
+.centerbox .logo {
+    position: absolute;
+    left: 0;
+    top: 36px;
+}
+.loginbox{
+    position: absolute;
+    width: 355px;
+    height: 530px;
+    background: url('./img/login_bg01.png') no-repeat;
+    left: 50%;
+    margin-left: -177px;
+    top:174px;
+    
+}
+.loginbox #wanmei {
+    float: left;
+    width: 177.5px;
+    height: 58px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 58px;
+    text-align: center;
+}
+.loginbox #QRcode {
+    float: right;
+    width: 177.5px;
+    height: 58px;
+    color: #b4b4b4;
+    font-size: 15px;
+    line-height: 58px;
+    text-align: center;
+}
+.wanmeibox{
+    width: 355px;
+    height: 397px;
+    margin-top: 58px;
+    text-align: center;
+}
+.wanmeibox .guofu {
+     color: #ACACAC;
+     font-size: 18px;
+     text-align: center;
+     padding-top: 20px;
+     line-height: 24px;;
+}
+.wanmeibox .guofu a {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.wanmeibox .tongguo{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.wanmeibox .tongguo a{
+    font-size: 18px;
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.inputs .inputs1{
+    box-sizing: border-box;
+    width: 250px;
+    height: 42px;
+    border: 1px solid #3e5963;
+    background-color: #131313;
+    margin-left: 51px;
+    line-height: 42px;
+    padding: 0 10px;
+}
+.inputs .inputs1 input{
+    width: 184px;
+    height: 38px;
+    background-color: #131313;
+    color: #999;
+    font-size: 16px;
+}
+ .inputs1 .user-ico {
+     float: left;
+    width: 14px;
+    height: 16px;
+    background: url('./img/user_icon.png');
+    margin-top: 12px;
+    margin-right: 8px;
+}
+ .inputs1 .close-ico1 {
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url('./img/inp_close.png');
+    margin-top: 12px;
+}
+.inputs .inputs2{
+    box-sizing: border-box;
+    width: 250px;
+    height: 42px;
+    border: 1px solid #3e5963;
+    background-color: #131313;
+    margin-left: 51px;
+    line-height: 42px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.inputs .inputs2 input{
+    width: 184px;
+    height: 38px;
+    background-color: #131313;
+    color: #999;
+    font-size: 16px;
+}
+ .inputs2 .lock-ico {
+     float: left;
+    width: 14px;
+    height: 16px;
+    background: url('./img/lock_icon.png') no-repeat;
+    margin-top: 12px;
+    margin-right: 8px;
+}
+ .inputs2 .close-ico2 {
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url('./img/inp_close.png');
+    margin-top: 12px;
+}
+
+.psw{
+    width: 250px;
+    color: #999;
+    font-size: 14px;
+    margin: 60px 52.5px 0;
+}
+.psw #pswbox{
+    vertical-align: middle;
+}
+.psw span{
+    margin-right: 102px;
+}
+.psw a {
+    font-size: 14px;
+    color: #999;
+}
+.loginbtn{
+    width: 250px;
+    height: 42px;
+    background-color: #dcbd40;
+    margin: 10px auto;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.loginbtn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.registerBtn a {
+    display: block;
+    width: 250px;
+    height: 36px;
+    border: 1px solid #6287b8;
+    margin: 0 auto;
+    color: #999;
+    line-height: 36px;
+}
+.QRcodeBox{
+    width: 355px;
+    height: 292px;
+    margin-top: 80px;
+    display: none;
+}
+.QRcodeBox p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.saoMa{
+   width: 146px;
+   height: 146px;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 146px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   border: 1px solid #117da1;
+}
+.saoMa img {
+    margin-top: 8px;
+}
+.QRcodeBox .phoneToken{
+    width: 226px;
+    height: 44px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 22px;
+}
+.QRcodeBox .phoneToken a{
+    color: #dcbd40;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* 页面底部开始 */
+.footer {
+
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.footer_a {
+    position: relative;
+    width: 1100px;
+    height: 32.8px;
+    margin: 40px auto 0px;
+}
+
+.footer_a .footer_left,
+.footer_md {
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+.footer_a .footer_left {
+    display: inline-block;
+    width: 178px;
+    height: 32.8px;
+}
+
+.footer_a .footer_md {
+    width: 123px;
+    height: 32.8px;
+}
+
+.footer_a .footer_right {
+    height: 32.8px;
+    color: rgb(149, 149, 149);
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.footer_bt {
+    position: absolute;
+    left: 230px;
+    top: 45px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.footer_bt a {
+    font-size: 12px;
+    color: rgb(75, 186, 250);
+}
+
+/* 页面底部结束 */
+
+
+
+
+

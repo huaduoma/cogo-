@@ -1,0 +1,125 @@
+.gunlun1::-webkit-scrollbar {
+    width           : 8px;
+    height          : 8px;
+    background-color: rgba(66, 85, 116, 0.2);
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius        : 10px;
+    background-color     : rgba(66, 85, 116, 0.2);
+}
+
+/*定义滑块 内阴影+圆角*/
+.gunlun1::-webkit-scrollbar-thumb {
+    border-radius        : 10px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color     : #425574;
+}
+
+
+
+.rightBox .gunlun1 {
+    overflow: hidden;
+    height  : 500px;
+    overflow: auto;
+    width   : 920px;
+
+    /* scrollbar-base-color      : #ffffff;
+    scrollbar-darkshadow-color   : #ffffff; */
+
+}
+
+.rightBox .gunlun1 .hengxiang {
+    width      : 920px;
+    /* overflow: hidden; */
+    position   : relative;
+}
+
+.hengxiang ul {
+    width   : 4600px;
+    position: absolute;
+}
+
+.hengxiang ul li {
+    width      : 920px;
+    /* overflow: hidden; */
+    float      : left;
+}
+
+.hengxiang ul li span {
+    width   : 100%;
+    position: relative;
+}
+
+.hengxiang .gaoliang {
+    background-color: #1c2027;
+}
+
+.hengxiang ul li p {
+    width           : 737px;
+    height          : 38px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color           : #ccc;
+    position        : absolute;
+    bottom          : -68px;
+    font-size       : 14px;
+    line-height     : 38px;
+    padding-left    : 50px;
+}
+
+.hengxiang ul li img {
+    margin-bottom: 20px;
+    width        : 787px;
+    height       : 172px;
+    /* position  : relative; */
+}
+
+.hengxiang ul li a {
+    color       : #b5d5f1;
+    float       : right;
+    margin-right: 20px;
+}
+
+
+
+.rightBox .gameBg {
+    width: 920px;
+}
+
+.rightBox .ditu {
+    padding-top: 30px;
+}
+
+.rightBox .dituMC li {
+    width           : 134px;
+    height          : 30px;
+    float           : left;
+    background-color: #3a404c;
+    border-right    : 1px solid #000;
+    margin-top      : 30px;
+    margin-bottom   : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    color           : #e1eaf1;
+    cursor          : pointer;
+    padding-left    : -40px;
+    font-size       : 14px;
+}
+
+
+.rightBox .dituMC li:nth-child(6) {
+    width       : 112px;
+    border-right: none;
+}
+
+/*--------------------------------------*/
+
+
+/*-----------------------------------*/
+.hengxiang::-webkit-scrollbar{width:14px;}
+.hengxiang::-webkit-scrollbar-track{background-color:#bee1eb;}
+.hengxiang::-webkit-scrollbar-thumb{background-color:#00aff0;}
+.hengxiang::-webkit-scrollbar-thumb:hover {background-color:#9c3}
+.hengxiang::-webkit-scrollbar-thumb:active {background-color:#00aff0}

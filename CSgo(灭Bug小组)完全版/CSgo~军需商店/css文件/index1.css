@@ -1,0 +1,679 @@
+/* 容器 */
+.container{
+    width: 1920px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+/* 登录弹窗 */
+.loginjiemian{
+    position: absolute;;
+    left: 50%;
+    margin-left: -310px;
+    top: 240px;
+    width: 620px;
+    height: 380px;
+    background-color: #fff;
+    z-index: 55;
+    border: 1px solid #999;
+    display: none;
+}
+.loginjiemian .i1{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #dc4949;
+}
+.loginjiemian .i2{
+   
+    float: left;
+    width: 1px;
+    height: 242px;
+    background-color: #999999;
+    margin-top: 40px;
+}
+/* 登录弹窗 左边界面 */
+.loginjiemian .zuojiemian{
+    float: left;
+    width: 260px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 35px 0px 75px;
+    color: #999;
+    text-align: center;
+}
+.loginjiemian .zuojiemian .erweima{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #999;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/erweima.png') no-repeat center;
+    margin: 35px auto 25px;;  
+}
+.zuojiemian .erweimaimg{
+    width: 240px;
+    height: 303px;
+    left: 260px;
+    top: 38px;
+    position: absolute;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/ewm_hover.png')no-repeat center;
+    display: none;
+}
+
+.loginjiemian .zuojiemian a{
+    display: block;
+    margin-top: 0px;
+    color: #ff7575;
+    padding-top: 15px;
+}
+/* 登录弹窗 右边界面 */
+.loginjiemian .youjiemian{
+    float: right;
+    width: 358px;
+    height: 100%;
+    padding: 35px 52px 0px;
+    box-sizing: border-box;
+    color: #999;
+}
+.loginjiemian .youjiemian .i3{
+    position: absolute;
+    width: 40px;
+    height: 30;
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    right: 0;
+    top: 2px;
+    font-size: 26px;
+    
+}
+.loginjiemian .youjiemian .i3:hover{
+    background-color:#dc4949;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.loginjiemian .youjiemian .login{
+    width: 250px;
+    margin:35px auto 24px;
+    text-align: left;
+    
+}
+.youjiemian .login input{
+    width: 250px;
+    height: 44px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-indent: 30px;
+}
+.youjiemian .input1{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/user.png') no-repeat left 8px center;
+
+}
+.youjiemian .input2{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/password.png') no-repeat left 8px center;
+}
+.youjiemian  .a1{
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    background-color: #FF5151;
+    border: 2px solid #D24646;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 54;
+}
+.youjiemian  .a1:hover{
+     opacity: 0.88;
+
+}
+.youjiemian  button{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #999;
+    background-color: #ededed;
+    border-radius: 5px;
+    margin-left: 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.youjiemian  button:hover{
+    opacity: 0.78;
+}
+/* 侧边固定个人中心 */
+.cebian{
+    width: 50px;
+    height: 314px;
+    background-color: #1F1F20;
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    z-index: 55;
+}
+.cebian .gouwu{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 140px;
+    background-color: #5289F0;
+    text-align: center;
+    padding-top: 20px;   
+
+}
+.cebian .gouwu img{
+    margin-bottom: 5px;
+}
+.cebian .gouwu:hover{
+    background-color: #4d72e2;
+}
+.cebian  a{
+    color: #fff;
+}
+.cebian  a i{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: blue;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.cebian .box{
+    width: 100%;
+    height: 30px;
+    /* line-height: 50px; */
+    text-align: center;
+}
+.cebian .box .boxren{
+    display: block;
+    width: 18px;
+    height: 50px;
+    margin: 15px auto;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-people.png') no-repeat;
+}
+.cebian .box .boxxin{
+    display: block;
+    width: 18px;
+    height: 50px;
+    margin: 15px;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-heart.png') no-repeat;
+}
+.cebian .box .boxren:hover{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-people副本.png') no-repeat;
+}
+.cebian .box .boxxin:hover{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-heart副本.png') no-repeat;
+}
+.cebian .boxduihua{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    bottom: 10px;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-talk.png') no-repeat center;
+}
+.cebian .boxduihua:hover{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-talkbai.png') no-repeat center;
+    cursor: pointer;
+
+}
+.top{
+    width: 100%;
+    
+    height: 90px;
+    background-color: #111521;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0; 
+}
+
+.content{
+    width: 1265px;
+    height: 90px;
+    margin: 0 auto;
+   background-color: #111521;
+}
+.top .logo a {
+    height: 90px;
+    float: left;
+}
+.top .logo  a img{
+    height: 50px;
+    margin-top: 20px;
+}
+.top .logo-shop a{
+    float: left;
+    margin-top: 28px;
+    margin-left: 34px;
+}
+.top .dingdan{
+    width: 330px;
+    height: 90px;
+    float:right;
+    margin-right: 10px;
+
+}
+
+/* 个人中心 */
+
+.top .dingdan a{
+    
+    float: left;
+    
+    color: #ccc;
+    line-height: 90px;
+    margin-right: 24px;
+    font-size: 14px;
+    text-align: center;
+}
+.top .dingdan a i{
+    float: left;
+    width: 18px;
+    height: 90px;
+    margin-right: 5px;
+    
+}
+/*个人中心开始 */
+.top .dingdan .a1 i{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-people.png')no-repeat  center;
+    
+}
+.top .dingdan .a1:hover i{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-peoplelan.png')no-repeat  center;
+    
+}
+.top .dingdan .a2 i{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-heart.png')no-repeat  center;
+}
+.top .dingdan .a2:hover i{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/heartlanse.png')no-repeat  center;
+}
+.top .dingdan .a3 i{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-cart.png')no-repeat  center;
+}
+.top .dingdan .a3:hover i{
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-cartlanse.png')no-repeat  center;
+}
+.top .dingdan a:hover{
+    color: #5289f0;
+}
+.top .dingdan .a3{
+    margin-right: 0px;
+}
+/* 登录注册 */
+.top .login{
+    float:right;
+    margin-right: 20px;
+}
+
+.top .login a{
+    display: inline-block;
+    background-color: #232A3F;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    color: #ccc;
+    margin-top: 30px;
+    margin-right: 8px;
+}
+.top .login a:hover{
+   background-color: #5289f0;
+   color: #fff;
+}
+/* 顶部导航栏 下部分 */
+.top .bottom i{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+}
+.top .bNav{
+    width: 100%;
+    height: 40px;
+    background-color: #111521;
+}
+.top .bNavZi{
+    width: 1265px;
+    
+    margin: 0 auto;
+}
+/* 顶部导航栏 购物车弹出内容 */
+.bottom .shopbar{
+    width: 350px;
+    height: 100px;
+    background-color: #282829;
+    position: fixed;
+    display: none;
+    line-height: 100px;
+    text-align: center;
+    color: #999;
+    left: 63%;
+}
+/* 顶部导航栏 下部分左 */
+.bNavZi .bNavLeft a{
+    float: left;
+    font-size: 16px;
+    padding: 8px 10px 9px 10px;
+    margin-right: 40px;
+    color: #ccc;
+}
+.bNavZi .bNavLeft a:hover{
+    color: #5289f0;
+    border-bottom: 2px solid #5289f0;
+}
+.bNavZi .bNavLeft a:nth-child(1){
+    color: #5289f0;
+    border-bottom: 2px solid #5289f0;
+}
+/* 顶部导航栏 下部分右 */
+.bNavZi .bNavRight{
+    float:right;
+    width: 250px;
+    height: 40px;
+    background-color: #23293F;
+}
+.bNavZi .bNavRight input{
+    float: left;
+    height: 40px;
+    width: 210px;
+    background-color: #0C101C;
+    font-size: 14px;
+    text-indent: 10px;
+    color: #fff;
+}
+.bNavZi .bNavRight a{
+    float: left;
+    height: 40px;
+    width: 38px;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-search.png') no-repeat center;
+    background-size: 20px;
+}
+/* 轮播图 */
+.banner{
+    top: 130px;
+    width: 1920px;
+    left:0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+
+.banner .tupian ul{
+    width: 5760px;
+    
+    position: relative;
+    left: 0px;
+}
+.banner .tupian  li{
+    width: 1920px;
+    /* overflow: hidden; */
+    float: left;  
+    text-align: center; 
+}
+.banner .tupian  li img{
+    width: 100%;
+}
+/* 轮播图 页码*/
+.banner .yema {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 45%;
+    top: 595px;
+}
+.banner .yema:hover>ul>li>i{
+    height: 10px;
+}
+.banner .yema li{
+    width: 150px;
+    height: 50px;
+}
+.banner .yema li i{
+    margin-right: 10px;
+    float: left;
+    background-color: #ccc;
+    width: 58px;
+    height: 5px;
+    cursor: pointer;   
+}
+
+.banner .yema li i.yangshi{
+    height: 10px;
+    background-color: #5289F0;
+    cursor:pointer;
+}
+.banner .yema li i.yangshi1{
+    height: 10px;
+    cursor:pointer;
+}
+
+.banner .yema li i.yangshi2{
+    height: 5px;
+    background-color: #5289F0;
+}
+.banner .yema li i.yangshi3{
+    
+   height: 5px;
+}
+/* 中间三张小图部分 */
+.tuijian{
+    width: 100%;
+    height: 388px;
+    background-color: #FAFAFA;
+    padding-top: 20px;
+} 
+.tuijian .tupian{
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.tuijian .tupian li{
+    float: left;
+}
+
+.tuijian .tupian li img{
+    width: 413px;
+    height: 228px;
+    /* position: relative;
+    left: 0; */
+    transition: all 0.1s;
+}
+.tuijian .tupian li img:hover{
+    transform: scale(1.02);
+    box-shadow:0px 0px 2px 3px rgba(0, 0, 0, .5);
+}
+.tuijian .tupian li{
+    margin-right: 15px;
+}
+
+.tuijian .box1{
+    width: 100%;
+    height: 60px;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+}
+.box1 .xinpin{
+    width: 1300px;
+    height: 60px;
+    margin: 0 auto;
+    background: url('../军需商店图片/CS_GO军需商店_-_官方周边商城/title-bg.jpg');
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    color:#648CDE;
+}
+.box1 .xinpin  i{
+    width: 20px;
+    height: 60px;
+    float: left;
+    background-color: #5289f0;
+}
+.huizhang{
+    
+     
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.huizhang img,
+.dianzi img{
+    display:block;
+    width: 100%;
+    margin: 0 auto;
+    transition: all 0.1s;
+}
+.huizhang img:hover,
+.dianzi img:hover{
+    transform: scale(1.02);
+}
+
+.dianzi{
+    
+    max-width: 1920px;
+    min-width: 1366px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.bottomNav{
+    width: 100%;
+    height: 640px;
+    background-color: #1F1F20;
+    margin-top: 60px;
+}
+.bottomNav .shangNav{
+    width: 900px;
+    height: 120px;
+    
+    margin: 0 auto;
+}
+.bottomNav .shangNav ul{
+    float: left;
+}
+.bottomNav .shangNav li{
+    float: left;
+    line-height: 120px;
+    margin-right: 240px;
+    color: #999999;
+    font-size: 18px;
+}
+.bottomNav i{
+    display: block;
+    background-color: #333333;
+    width: 100%;
+    height: 2px;
+
+}
+.bottomNav .shangNav li:last-child{
+    margin-right: 0px;
+}
+.bottomNav .shangNav img{
+    margin-right: 20px;
+}
+.bottomNav .shuoming{
+    width: 900px;
+    height: 300px;
+    margin:0 auto;
+    
+}
+.bottomNav .shuoming .left{
+    width: 570px;
+    height: 100%;
+    float: left;
+    
+}
+.shuoming .left li{
+    float: left;
+    margin-right:130px;
+    margin-top: 66px;
+}
+.shuoming .left li:last-child{
+    margin-right: 0px;
+}
+.shuoming .left li .p1{
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #999999;
+}
+.shuoming .left li a{
+    display: block;
+    color: #999999;
+    margin-bottom: 16px;
+}
+.shuoming .left li a:hover{
+    text-decoration:underline;
+}
+
+.bottomNav .shuoming .right{
+    float: right;
+    width: 230px;
+    height: 234px;
+    text-align: center;
+    padding-top:66px;
+    color: #999;
+}
+.shuoming .right p{
+    margin-bottom: 22px;
+}
+.shuoming .right p:first-child{
+    font-size: 28px;
+}
+.shuoming .right .youxiang{
+    margin-bottom: 10px;
+}
+.shuoming .right a{
+    color: #fff;
+    display: inline-block;
+    width: 78px;
+    height: 30px;
+    background-color: #5289F0;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.shuoming .right a:hover{
+    text-decoration:underline;
+}
+.bottomNav .zuihou{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.zuihou .wenzi1{
+    width: 820px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.zuihou .wenzi1 li{
+    float: left;
+    
+}
+.zuihou .wenzi1 li a{
+    color: #ccc;
+    display: block;
+     border-right: 1px solid #ccc;
+     padding: 0px 10px;
+}
+.zuihou .wenzi1  .alast{
+    border: none;
+}
+.zuihou .wenzi1 li a:hover{
+    color: red;
+} 
+.zuihou .wenzi2{
+    color: #999;
+    font-size: 12px;
+}
+.zuihou .xiaotu{
+    width: 600px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+}

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS:GO军需商店 - 官方周边商城</title>
+    <link rel="icon" href="../军需商店图片/CS_GO军需商店_-_官方周边商城/favicon.ico">
+    <link rel="stylesheet" href="../css文件/base1.css">
+    <link rel="stylesheet" href="../css文件/allshangpin.css">
+    <link rel="stylesheet" href="../css文件/iconfont.css">
+</head>
+
+<body>
+
+    <div class="container clearfix">
+        <!-- 登录弹窗 -->
+        <div class="loginjiemian">
+            <i class="i1"></i>
+            <div class="zuojiemian">
+                <p>扫码登录 安全快速</p>
+                <div class="erweima" id="erweima"></div>
+                <p>使用完美手机令牌扫描二维码</p>
+                <div class="erweimaimg"></div>
+                <a href="javaScript:void(0);">还没安装?点我</a>
+            </div>
+            <i class="i2"></i>
+            <div class="youjiemian">
+                <i class="i3" id="loginjiemiani3">×</i>
+                <p>帐号登录 </p>
+                <div class="login">
+                    <input type="text" value="" placeholder="帐号" class="input1">
+                    <input type="password" placeholder="密码/神盾密码" class="input2">
+                </div>
+                <a href="javaScript:void(0);" class="a1">登录</a>
+                <button>神盾登录</button>
+            </div>
+        </div>
+        <!--侧边固定栏 -->
+        <div class="cebian">
+            <div class="box"><a href="javaScript:void(0);" class="boxren"></a></div>
+            <div class="box"><a href="javaScript:void(0);" class="boxxin"></a></div>
+            <div class="gouwu">
+                <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-cartbai.png"
+                        alt=""><br>购<br>物<br>车<br><i>0</i></a>
+            </div>
+            <div class="boxduihua"><a href="javaScript:void(0);" class="duihua"></a></div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="top clearfix">
+            <div class="content">
+                <!-- logo图片 -->
+                <div class="logo">
+                    <h1>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/logo-csgo.png" alt=""></a>
+                    </h1>
+                </div>
+                <!-- 军需商店图片 -->
+                <div class="logo-shop">
+                    <a href="#"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/logo-shop.png" alt=""></a>
+                </div>
+                <!-- 个人中心 -->
+                <div class="dingdan" id="dingdan">
+
+                    <a href="javaScript:void(0);" class="a1"><i></i>我的订单</a>
+                    <a href="javaScript:void(0);" class="a2"><i></i>我的关注</a>
+                    <a href="javaScript:void(0);" class="a3"><i></i>我的购物车(0)</a>
+                </div>
+                <!-- 登录 -->
+                <div class="login" id="login">
+                    <a href="javascript:;">登录</a>
+                    <a href="javascript:;">快速注册</a>
+                </div>
+
+            </div>
+            <!-- 顶部导航栏 下 部分 -->
+            <div class="bottom clearfix">
+                <!-- 分割线 -->
+                <i></i>
+                <!-- 隐藏的购物车内容 -->
+                <div class="shopbar" id="shopbar">
+                    购物车里暂无商品
+                </div>
+                <div class="bNav">
+                    <div class="bNavZi">
+                        <div class="bNavLeft">
+                            <!-- 下导航页 -->
+                            <a href="../html文件/index.html">首页</a>
+                            <a href="javaScript:void(0);">所有商品</a>
+                            <a href="javaScript:void(0);">主题服饰</a>
+                            <a href="javaScript:void(0);">创意T恤</a>
+                            <a href="javaScript:void(0);">生活用品</a>
+                        </div>
+                        <!-- 下导航页  搜索框 -->
+                        <div class="bNavRight">
+                            <input type="text">
+                            <a href="javaScript:void(0);"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 分隔线------------------------------------- -->
+        <div class="fengelan">
+            <div class="banxin">
+                <a href="javaScript:void(0);">首页</a>
+                <span>></span>
+                <a href="javaScript:void(0);">所有商品</a>
+            </div>
+        </div>
+        <!-- 销量价格上架时间 -->
+        <div class="shangpinlist">
+            <div class="topwenzi">
+                <div class="fudong">
+                    <a href="javasript:;" id="xiaoliang">销量</a>
+                    <a href="javasript:;" id="jiage">价格</a>
+                    <a href="javasript:;">上架时间</a>
+                </div>
+            </div>
+            <div class="banxin clearfix">
+                <ul id="ul">
+                    <li>
+                        <i>159</i>
+                        <i>0</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 5</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/1.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥159.00 <s>￥169.00</s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing1"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>159</i>
+                        <i>0</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 8</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/2.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥159.00 <s>￥169.00</s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing1"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>55</i>
+                        <i>0</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 35</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/3.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥55.00 <s>￥66.00</s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing1"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>188</i>
+                        <i>50</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 88</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/4.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥188.00 <s></s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing2"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>148</i>
+                        <i>1</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 1</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/5.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥148.00 <s></s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing1"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>148</i>
+                        <i>10</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 7</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/6.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥148.00 <s></s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>219</i>
+                        <i>1</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 8</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/7.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥219.00 <s></s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing1"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i>129</i>
+                        <i>8</i>
+                        <div class="zan">
+                            <a href="javascript:;" class="iconfont icon-shoucang"> 4</a>
+                        </div>
+                        <a href="javaScript:void(0);"><img src="../军需商店图片/商品列表/8.jpg" alt="">
+                            <img src="" alt="">
+                            <p>CS:GO T恤 盒子空间</p>
+                            <p>￥129.00 <s></s></p>
+                        </a>
+                        <div class="add">
+                            <a href="javaScript:void(0);" class="a1 xingxing2"></a>
+                            <a href="javaScript:void(0);" class="a2"><i></i> 加入购物车</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="bottomNav">
+            <!-- 底部1 -->
+            <div class="shangNav">
+                <ul>
+                    <li><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-zan.png" alt="">正品保证</li>
+                    <li><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-car.png" alt="">快速配送</li>
+                    <li><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/icon-change.png" alt="">无忧退换</li>
+                </ul>
+            </div>
+            <!-- 分割线 -->
+            <i></i>
+            <!-- 底部2 -->
+            <div class="shuoming">
+                <div class="left">
+                    <ul>
+                        <li>
+                            <p class="p1">购物指南</p>
+                            <a href="javaScript:void(0);">
+                                <p>常见问题</p>
+                            </a>
+                            <a href="javaScript:void(0);">
+                                <p>购物流程</p>
+                            </a>
+                            <a href="javaScript:void(0);">
+                                <p>支付方式</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="p1">售后服务</p>
+                            <a href="javaScript:void(0);">
+                                <p>退换货政策</p>
+                            </a>
+                            <a href="javaScript:void(0);">
+                                <p>发票政策</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="p1">关注我们</p>
+                            <a href="javaScript:void(0);">
+                                <p>CS:GO官网</p>
+                            </a>
+                            <a href="javaScript:void(0);">
+                                <p>新浪微博</p>
+                            </a>
+                            <a href="javaScript:void(0);">
+                                <p>官方微信</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <p>028-687212138</p>
+                    <p>周一至周日 0:00 - 24:00</p>
+                    <p><a href="javaScript:void(0);">在线客服</a></p>
+                    <p class="youxiang">商务合作邮</p>
+                    <p>箱: csgo_cn@wanmei.com</p>
+                </div>
+            </div>
+            <!-- 底部3 -->
+            <div class="zuihou">
+                <div class="wenzi1 clearfix">
+                    <ul>
+                        <li><a href="javaScript:void(0);">公司介绍</a></li>
+                        <li><a href="javaScript:void(0);">开发团队</a></li>
+                        <li><a href="javaScript:void(0);">招聘信息</a></li>
+                        <li><a href="javaScript:void(0);">联系我们</a></li>
+                        <li><a href="javaScript:void(0);">完美世界隐私政策</a></li>
+                        <li><a href="javaScript:void(0);">完美世界用户协议</a></li>
+                        <li><a href="javaScript:void(0);">完美世界商场服务协议</a></li>
+                        <li><a href="javaScript:void(0);">Cookie政策</a></li>
+                        <li><a href="javaScript:void(0);" class="alast">网站地图</a></li>
+                    </ul>
+                </div>
+                <div class="wenzi2">
+                    <p> 京ICP证：050016号-17 营业执照 《网络文化经营许可证》编号：文网文【2017】8929-1007号《网络视听许可证》编号：0110587 京公网安备11010502033859号
+                    </p>
+                </div>
+                <div class="xiaotu">
+                    <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/copyright01.jpg" alt=""></a>
+                    <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/copyright02.jpg" alt=""></a>
+                    <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/copyright03.jpg" alt=""></a>
+                    <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/copyright04.jpg" alt=""></a>
+                    <a href="javaScript:void(0);"><img src="../军需商店图片/CS_GO军需商店_-_官方周边商城/copyright05.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js文件/animation.js"></script>
+    <script src="../js文件/jquery-1.12.4.js"></script>
+    <script>
+
+
+        //给top栏购物车添加鼠标移入显示购物车内容
+        var gouwuche = document.getElementsByClassName('a3')[0];
+        var shopbar = document.getElementById('shopbar');
+
+        gouwuche.onmouseover = function () {
+            shopbar.style.display = 'block';
+        };
+        gouwuche.onmouseout = function () {
+            shopbar.style.display = 'none';
+        };
+        var loginjiemiani3 = document.getElementById('loginjiemiani3');
+        var loginjiemian = document.getElementsByClassName('loginjiemian')[0];
+        var login = document.getElementById('login');
+        for (var i = 0; i < login.children.length; i++) {
+            login.children[i].onclick = function () {
+                loginjiemian.style.display = 'block';
+            };
+        };
+        loginjiemiani3.onclick = function () {
+            loginjiemian.style.display = 'none';
+        };
+
+      
+
+
+
+        //给价格注册 排序事件
+        var ul = document.getElementById('ul');
+        var jiage = document.getElementById('jiage');
+        jiage.onclick = dadaoxiao;
+         
+         /* 排序从大到小 */
+        function dadaoxiao() {
+            var arr = [];
+            for (var i = 0; i < ul.children.length; i++) {
+                arr[i] = ul.children[i]
+            };
+
+            arr.sort(function (li1, li2) {
+                var n1 = parseInt(li1.children[0].innerText);
+                var n2 = parseInt(li2.children[0].innerText);
+                return n2 - n1;
+            })
+
+            for (var i = 0; i < arr.length; i++) {
+                ul.appendChild(arr[i]);
+            };
+            this.onclick = xiaodaoda;
+        };
+        
+        /* 排序从小到大 */
+        function xiaodaoda() {
+            var arr = [];
+            for (var i = 0; i < ul.children.length; i++) {
+                arr[i] = ul.children[i]
+            };
+
+            arr.sort(function (li1, li2) {
+                var n1 = parseInt(li1.children[0].innerText);
+                var n2 = parseInt(li2.children[0].innerText);
+                return n1 - n2;
+            })
+
+            for (var i = 0; i < arr.length; i++) {
+                ul.appendChild(arr[i]);
+            };
+            this.onclick = dadaoxiao;
+        };
+    ///------------------------------------------------------
+        
+        //给销量注册排序事件
+        var xiaoliang = document.getElementById('xiaoliang');
+        xiaoliang.onclick = dadaoxiao1;
+         /* 排序从大到小 */
+         function dadaoxiao1() {
+            var arr = [];
+            for (var i = 0; i < ul.children.length; i++) {
+                arr[i] = ul.children[i]
+            };
+
+            arr.sort(function (li1, li2) {
+                var n1 = parseInt(li1.children[1].innerText);
+                var n2 = parseInt(li2.children[1].innerText);
+                return n2 - n1;
+            })
+
+            for (var i = 0; i < arr.length; i++) {
+                ul.appendChild(arr[i]);
+            };
+            this.onclick = xiaodaoda1;
+        };
+
+        /* 排序从小到大 */
+        function xiaodaoda1() {
+            var arr = [];
+            for (var i = 0; i < ul.children.length; i++) {
+                arr[i] = ul.children[i]
+            };
+
+            arr.sort(function (li1, li2) {
+                var n1 = parseInt(li1.children[1].innerText);
+                var n2 = parseInt(li2.children[1].innerText);
+                return n1 - n2;
+            })
+
+            for (var i = 0; i < arr.length; i++) {
+                ul.appendChild(arr[i]);
+            };
+            this.onclick = dadaoxiao1;
+        };
+
+        /* 给商品列表中的每个  爱心添加点击 +1 */
+        
+        $('.zan>a').click(function(){
+           
+           var index = parseInt( $(this).text());
+           index++;
+           index = String(index)
+           $(this).html('&nbsp' + index);
+            console.log(index) ;
+        });
+
+
+
+
+
+       
+       
+        //给每个商品图片 设置滑入  滑出效果
+        $('#ul li').mouseenter(function () {
+            var index= $(this).index();
+            $('#ul li .add').eq(index).stop().slideDown();
+        });
+
+        $('#ul li').mouseleave(function () {
+            var index = $(this).index();
+            $('#ul li .add').eq(index).stop().slideUp();
+        });
+       
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body,div,ul,li,img,p,span,a,h1,h2,h3,input,i {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+img {
+    vertical-align: middle ;
+    border: none;
+}
+body {
+    font-size: 14px;
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+input {
+    outline: none;
+    border: none;
+}
+
+i {
+    font-style: normal;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+    height: 0;
+
+}
+.clearfix {
+    *zoom: 1;
+}
+body {
+    background-color: #0b0d10;
+}

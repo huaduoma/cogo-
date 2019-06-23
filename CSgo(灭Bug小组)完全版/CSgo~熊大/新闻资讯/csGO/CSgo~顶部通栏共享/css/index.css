@@ -1,0 +1,970 @@
+/* 顶部通栏开始 */
+body {
+    height: 2000px;
+}
+
+.boxNav {
+    /* 固定定位 */
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid #6b9ac8;
+    background-color: rgb(17, 21, 33);
+}
+
+.topNav {
+    width: 1230px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.topNav h1 {
+    width: 157px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 8px 0px 0px 23px;
+    margin-right: 100px;
+}
+
+.topNav h1 img {
+    width: 134px;
+    height: 64px;
+}
+
+.boxNav .navList {
+    float: left;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.boxNav .navList p{
+    font-size: 12px;
+}
+.boxNav .navList a {
+    float: left;
+    height: 56px;
+    color: white;
+    margin: 0px 25px;
+}
+
+.boxNav .navList a:hover {
+    border-bottom: 4px solid rgb(86, 110, 149);
+}
+
+.rightNav {
+    margin-right: 32px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.rightNav a {
+    font-size: 14px;
+    color: #566e95;
+}
+
+
+/* 顶部通栏结束 */
+/* 背景图片开始 */
+
+.datu{
+    width: 100%;
+    min-width: 1200px;
+    position: relative;
+    padding-top: 1018px;
+}
+#beijing{
+    width: 3570px;
+    min-width: 1200px;
+    left:50%;
+    margin-left: -1754px;
+    position: absolute;
+    height: 1018px;
+    background: url('../../背景图片/bg.jpg')no-repeat center center;
+    top: 0;
+    
+}
+#banxin{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.gongce {
+    width: 654px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 510px;
+    margin-left: -327px;
+    background: url('../../背景图片/slogan.png')
+}
+.row-left{
+    width: 281px;
+    height: 142px;
+    position: absolute;
+    top: 750px;
+    left: 115px;
+}
+.row-left a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url('../../隐藏图片/arrow_left.png')
+}
+.row-left a #fanhui {
+    display: inline-block;
+    width: 45px;
+    height: 80px;
+    position: absolute;
+    cursor: pointer;
+    top: 35px;
+    left: 8px;
+    background: url('../../隐藏图片/arrow-next.png') no-repeat;
+    
+}
+@keyframes laotie {
+    0% {
+        transform: translate(0);
+        
+    }
+    50% {
+        transform: translate(20px);
+    }
+    100%{
+        transform: translate(0)
+    }
+}
+#fanhui:hover {
+    animation: laotie 1s linear 10000 forwards;
+}
+.row-right {
+    width: 275px;
+    height: 142px;
+    position: absolute;
+    top: 750px;
+    right: 80px;
+}
+.row-right a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: url('../../隐藏图片/arrow_right.png')
+}
+.row-right a #gengduo {
+    display: inline-block;
+    width: 45px;
+    height: 80px;
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    right:12px;
+    background: url('../../隐藏图片/arrow-prev.png')
+}
+@keyframes laoge {
+    0% {
+        transform: translate(0);
+        
+    }
+    50% {
+        transform: translate(-20px);
+    }
+    100%{
+        transform: translate(0)
+    }
+}
+#gengduo:hover {
+    animation: laoge 1s linear 10000 forwards;
+}
+.zhong {
+    width: 270px;
+    height: 30px;
+    font-size: 26px;
+    color: #ffb21c;
+    position: absolute;
+    top: 788px;
+    left: 50%;
+    margin-left: -92px;
+}
+.huigui{
+    width: 550px;
+    height: 45px;
+    position: absolute;
+    top: 890px;
+    left: 50%;
+    margin-left: -239px;
+    border-radius: 45px;
+    background-color: #505863;
+}
+.huigui a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:#f3f4f5;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+}
+/* 第二个版心开始 */
+#baner {
+    width: 1200px;
+    height: 1018px;
+    position: absolute;
+    left: 50%;
+    display: none;
+}
+.fufei {
+    width: 418px;
+    height: 506px;
+    position: absolute;
+    top: 184px;
+    right: 34px;
+    background: url('../../隐藏图片/ffhq.png')
+}
+.liu{
+    width: 1240px;
+    height: 255px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    bottom: 60px;
+}
+.tit{
+    width: 130px;
+    height: 35px;
+    margin: 0 auto;
+    background: url('../../隐藏图片/hqlc_tit.png')
+}
+.line{
+    width: 475px;
+    height: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url('../../隐藏图片/line.png')
+}
+.buzhou{
+    width: 1240px;
+    height: 136px;
+    margin: 0 auto;
+}
+.liu li {
+    width: 236px;
+    height: 56px;
+    padding-top: 80px;
+    margin: 0 6px;
+    float: left;
+    position: relative;
+}
+.yibu{
+    background: url('../../步骤/step01.jpg') no-repeat;
+}
+.buzhou .yibu .yibu-01{
+    width: 182px;
+    height: 35px;
+    display: block;
+    border-radius: 12px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    background-color: #453318;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -91px;
+    transition: all 0.2s linear;
+}
+.buzhou .yibu .yibu-01:hover{
+    transform: translateY(-15%)
+}
+.yibu .next {
+    width: 216px;;
+    height: 21px;
+    position: absolute;
+    background: url('../../隐藏图片/process_bottom02.png') no-repeat;
+    top: 142px;
+    left: 50%;
+    margin-left: -108px;
+}
+@keyframes next {
+    0% {
+        transform: translate(0);
+        
+    }
+    50% {
+        transform: translate(-15px);
+    }
+    100%{
+        transform: translate(0)
+    }
+}
+.arr-next {
+    animation: next 1s linear 10000 forwards;
+}
+.yibu .next p {
+    color: #826c4c;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+}
+.erbu{
+    background: url('../../步骤/step02.jpg') no-repeat;
+}
+.erbu .popu{
+    width: 220px;
+    height: 80px;
+    padding-top: 18px;
+    padding-left: 14px;
+    position: absolute;
+    display: none;
+    top: -32px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8)    
+}
+.erbu>.popu>p{
+    font-size: 12px;
+    text-align: left;
+    color: #fff;
+}
+.sanbu .popu-2{
+    width: 222px;
+    height: 80px;
+    padding-top: 18px;
+    padding-left: 14px;
+    position: absolute;
+    display: none;
+    top: -32px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+.sanbu>.popu-2>p{
+    font-size: 12px;
+    text-align: left;
+    color: #fff;
+}
+.buzhou li p {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+}
+.buzhou li p a {
+    color: #ff8054;
+    padding-right: 20px;
+    background: url('../../隐藏图片/icon_notes.png') no-repeat right;
+}
+.xi{
+    width: 216px;
+    height: 21px;
+    margin: 0 auto;
+    background: url('../../隐藏图片/process_bottom03.png') no-repeat;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.wubu>.xi>p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    color: #826c4c;
+}
+.buzhou li .last-b{
+    width: 100%;
+    height: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+.wubu .popu-3{
+    width: 222px;
+    height: 80px;
+    padding-top: 18px;
+    padding-left: 14px;
+    position: absolute;
+    display: none;
+    top: 52px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+.wubu>.popu-3>p{
+    font-size: 12px;
+    text-align: left;
+    color: #fff;
+}
+.buzhou li .last-b span{
+    color: #826c4c;
+    text-decoration: none;
+}
+.buzhou li .last-b a {
+    color: #ff8054;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+.sanbu {
+    background: url('../../步骤/step03.jpg') no-repeat;
+}
+.sibu{
+    background: url('../../步骤/step044.jpg') no-repeat;
+}
+.wubu{
+    background: url('../../步骤/step05.jpg') no-repeat;
+}
+.bu-bottom{
+    width: 531px;
+    height: 21px;
+    position: absolute;
+    background: url('../../隐藏图片/process_bottom.png') no-repeat;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -265px;
+}
+.bu-bottom p {
+    font-size: 16px;
+    color: #566e95;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 17px;
+}
+.arr-next {
+    width: 46px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    background: url('../../隐藏图片/arrow-next.png') no-repeat;
+    top: 408px;
+    right: -42px;
+    opacity: 1;
+}
+/* 第二个版心结束 */
+
+/* 第三个版心开始 */
+
+.bansan{
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -1210px;
+    display: none;
+}
+.huoqu{
+    width: 418px;
+    height: 506px;
+    top: 169px;
+    left: 12px;
+    position: absolute;
+    background: url('../../隐藏图片/rzhh.png')
+}
+
+.arr-geng{
+    width: 46px;
+    height: 80px;
+    position: absolute;
+    display: inline-block;
+    background: url('../../隐藏图片/arrow-prev.png') no-repeat;
+    top: 382px;
+    left: -45px;
+    opacity: 1;
+}
+@keyframes arr-geng {
+    0% {
+        transform: translate(0);
+        
+    }
+    50% {
+        transform: translate(-15px);
+    }
+    100%{
+        transform: translate(0)
+    }
+}
+.arr-geng {
+    animation: arr-geng 1s linear 10000 forwards;
+}
+
+.liu2{
+    width: 1240px;
+    height: 255px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    bottom: 60px;
+}
+.tit2{
+    width: 130px;
+    height: 35px;
+    margin: 0 auto;
+    background: url('../../隐藏图片/hqlc_tit.png') no-repeat;
+}
+.line2{
+    width: 475px;
+    height: 18px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: url('../../隐藏图片/line.png')
+}
+.buzhou2{
+    width: 1240px;
+    height: 136px;
+    margin: 0 auto;
+}
+.yibu2{
+    background: url('../../步骤/step01.jpg')
+}
+.buzhou2 li {
+    width: 236px;;
+    height: 56px;
+    padding-top: 80px;
+    margin: 0 6px;
+    position: relative;
+    float: left;
+    cursor: default;
+}
+
+.buzhou2 .yibu2 .yibu-02{
+    display: block;
+    width: 182px;;
+    height: 35px;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #453318;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    transition: all 0.2s linear;
+}
+.buzhou2 .yibu2 .yibu-02:hover{
+    transform: translateY(-15%)
+}
+.buzhou2 .yibu2 .next2{
+    position: absolute;
+    width: 216px;
+    height: 21px;
+    background: url('../../隐藏图片/process_bottom02.png') no-repeat;
+    top: 142px;
+    left: 50%;
+    margin-left: -108px;
+}
+.buzhou2 .yibu2 .next2 p{
+    color: #826c4c;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+}
+.liu2 .buzhou2 .erbu2{
+    background: url('../../步骤/step02.jpg')
+}
+.liu2 .buzhou2 .erbu2 p{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+.liu2 .buzhou2 .erbu2 p .hao{
+    color: #ff8054;
+    padding-right: 20px;
+    text-decoration: underline;
+    background: url('../../隐藏图片/icon_notes.png') no-repeat right center; 
+}
+.popu2{
+    width: 222px;
+    height: 80px;
+    padding-top: 18px;
+    padding-left: 14px;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+    top: -32px;
+    left: 0;
+}
+.liu2>.buzhou2>.erbu2>.popu2>p {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}
+.sanbu2{
+    background: url('../../步骤/step03.jpg') no-repeat;
+}
+.sanbu2 p {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+.sanbu2 p .wan {
+    color: #ff8054;
+    text-decoration: underline;
+    padding-right: 20px;
+    background: url('../../隐藏图片/icon_notes.png') no-repeat right center;
+}
+.sanbu2 .popu-12 {
+    width: 222px;
+    height: 80px;
+    padding-top: 18px;
+    padding-left: 14px;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+    top: -32px;
+    left: 0;
+}
+.sanbu2>.popu-12>p{
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}
+.sibu2{
+    background: url('../../步骤/step044.jpg') no-repeat;
+}
+.buzhou2 li p{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+.wubu2{
+    background: url('../../步骤/step05.jpg') no-repeat;
+}
+.buzhou2 li p{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+.xi2{
+    width: 216px;
+    height: 21px;
+    margin: 0 auto;
+    background: url('../../隐藏图片/process_bottom03.png') no-repeat;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.buzhou2>.wubu2>.xi2>p{
+    font-size: 16px;
+    text-align: center;
+    color: #826c4c;
+    line-height: 36px;
+} 
+.buzhou2 li p{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+.buzhou2 li p span{
+    color: #826c4c;
+    text-decoration: none;
+}
+.buzhou2 li p a{
+    color: #ff8054;
+    text-decoration: underline;
+    padding-right: 20px;
+    background: url('../../隐藏图片/icon_notes.png') no-repeat right center;
+}
+.wubu2 .popu-23{
+    width: 222px;
+    height: 80px;
+    padding-top: 18px;
+    padding-left: 14px;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+    top: 52px;
+}
+.buzhou2>.wubu2>.popu-23>p{
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}
+.bu-bottom2{
+    width: 531px;
+    height: 21px;
+    background: url('../../隐藏图片/process_bottom.png') no-repeat;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -265px;
+}
+.bu-bottom2 p{
+    font-size: 16px;
+    color: #566e95;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 17px;
+}
+
+/* 第三个版心结束 */
+/* 背景图片结束 */
+/* 旋转木马部分开始 */
+.rota{
+    height: 777px;
+    background: url('../../背景图片/bg02.jpg');
+}
+.ban{
+    width: 1200px;
+    height: 738px;
+    position: relative;
+    margin: 0 auto;
+}
+.header{
+    width: 245px;
+    height: 42px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -115px;
+    background: url('../../底部/title01.png')
+}
+#ul1{
+    position: relative;
+    z-index: 0;
+    width: 1016px;
+    height: 580px;
+    top: 132px;
+    left: 50%;
+    margin-left: -508px;
+}
+#one{
+    width: 711px;
+    height: 406px;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 4;
+    left:-310px;
+    top: 84px;
+}
+#zuo{
+    width: 305px;
+    height: 418px;
+    position: absolute;
+    left: -215px;
+    top: 216px;
+    z-index: 20;
+}
+#one a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #fff;
+    border-radius: 4px;
+}
+#one a img{
+    width: 100%;
+    height: 100%;
+}
+#two {
+    width: 1016px;
+    height: 580px;
+    position: absolute;
+    opacity: 1;
+    z-index: 6;
+    left:-5px;
+    top: -5px;
+}
+#two a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #fff;
+    border-radius: 4px;
+}
+#two a img{
+    width: 100%;
+    height: 100%;
+}
+#three {
+    width: 711px;
+    height: 406px;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 4;
+    left: 604px;
+    top: 84px;
+}
+#you{
+    width: 305px;
+    height: 418px;
+    position: absolute;
+    top: 217px;
+    left: 1112px;
+    z-index: 20;
+}
+#three a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #fff;
+    border-radius: 4px;
+}
+#three a img{
+    width: 100%;
+    height: 100%;
+}
+#four {
+    width: 406px;
+    height: 232px;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 2;
+    left: 300px;
+    top: 171px;
+}
+#four a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #fff;
+    border-radius: 4px;
+}
+#four a img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 旋转木马部分结束 */
+/* 问答部分开始 */
+.wenda{
+    width: 100%;
+    height: 1280px;
+    background-color: #141921;
+}
+.catin{
+    width: 1200px;
+    height: 1280px;
+    margin: 0 auto;
+    background-color: #141921;
+}
+.zhang{
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-color: #ababab #141921 #141921 #141921;
+    margin: 0 auto;
+}
+.wenti{
+    width: 100%;
+    height: 1190px;
+    margin: 0 auto;
+}
+.kaitou{
+    width: 100%;
+    height: 72px;
+    padding-bottom: 25px;
+    border-bottom: 5px solid #374675;
+}
+h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+.wenti a.geng {
+    display: inline-block;
+    width: 120px;
+    height: 28px;
+    border: 1px solid #334873;
+    color: #334873;
+    text-align: center;
+    line-height: 28px;
+    float: right;
+    margin-top: 10px;
+}
+.biaoti{
+    width: 100%;
+    height: 660px;
+    padding-top: 47px;
+}
+.wen{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.da{
+    font-size: 15px;
+    line-height: 17px;
+    color: #788aba;
+    margin-bottom: 53px;
+}
+.biaoti u {
+    cursor: pointer;
+    color: #e7ca73; 
+}
+.qian{
+    width: 435px;
+    height: 92px;
+    background-color: red;
+    margin: 0 auto;
+}
+/* 问答部分结束 */
+/* 底部开始 */
+.footer {
+
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.footer_a {
+    position: relative;
+    width: 1100px;
+    height: 32.8px;
+    margin: 40px auto 0px;
+}
+
+.footer_a .footer_left,
+.footer_md {
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+.footer_a .footer_left {
+    display: inline-block;
+    width: 178px;
+    height: 32.8px;
+}
+
+.footer_a .footer_md {
+    width: 123px;
+    height: 32.8px;
+}
+
+.footer_a .footer_right {
+    height: 32.8px;
+    color: rgb(149, 149, 149);
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.footer_bt {
+    position: absolute;
+    left: 200px;
+    top: 45px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.footer_bt a {
+    font-size: 12px;
+    color: rgb(75, 186, 250);
+}
+.footer_bt a img{
+    line-height: 21px;
+}
+/* 底部结束 */

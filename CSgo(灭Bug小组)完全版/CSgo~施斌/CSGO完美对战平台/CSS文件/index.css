@@ -1,0 +1,643 @@
+body {
+    background: #0f121e;;
+}
+.top {
+    height: 72px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background: #040404;
+    line-height: 72px;
+    z-index: 10000;
+}
+.top .topbar {
+    width: 1200px;
+    margin: 0 auto ;
+}
+.top .topbar .logo {
+    width: 80px;
+    height: 56px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px
+}
+.top .topbar ul{
+    float: left;
+}
+.top .topbar ul li {
+    float: left;
+    line-height: 70px;
+}
+.top .topbar ul li:hover {
+    border-top: 2px solid skyblue;
+}
+.top .topbar ul li a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px ;
+}
+.top .topbar .a1 {
+    float: right;
+    padding: 5px 6px;;
+    border: 1px solid #fff;
+    color: #fff;
+    line-height: 1;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-right: 100px;
+}
+.top .topbar .a1:hover span{
+    color: skyblue;
+}
+.top .topbar .a1 i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../完美对战平台/icon_download.png   )
+}
+.banner {
+    margin-top: 72px;
+    position: relative;
+    height: 1055px;
+}
+#banner-box {
+    width: 100%;
+    margin: 0 auto;
+}
+.bannerLeft {
+    width: 50%;
+    height: 900px;
+    background: url(../完美对战平台/m1bg-CS.jpg) 100% 0 no-repeat;
+    /* background-size: 480px 450px; */
+    position: absolute;
+    right: 50%;
+}
+.bannerright {
+    width: 50%;
+    height: 900px;
+    background: url(../完美对战平台/m1bg-dota.jpg) no-repeat;
+    /* background-size: 480px 450px; */
+    position: absolute;
+    left: 50%;
+}
+.banner .slogo {
+    position: absolute;
+    width: 100%;
+}
+.banner .slogo img {
+    display: block;
+    margin: 30px auto;
+    
+}
+.banner .slogo .a1 {
+    width: 236px;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    font-size: 16px;
+    padding: 15px 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    opacity: 0.8;
+}
+.banner .slogo .a1:hover {
+    opacity: 1;
+}
+
+.banner .bannav {
+    position: absolute;
+    width: 1200px;
+    bottom: -34px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.banner .bannav li {
+   width: 173px;
+   height: 134px;
+   margin-left: 50px;
+   float: left;
+   border: 1px solid rgba(30, 115, 174, 0.4) ;
+   border-radius: 10px;
+   text-align: center;
+   overflow: hidden;
+   padding-top: 20px;
+}
+.banner .bannav li i {
+    display: block;
+    margin: 0 auto ;
+    width: 50px;
+    height: 50px;
+    background: url(../完美对战平台/icons.png) -68px -60px  ;
+} 
+.banner .bannav li:nth-child(2) i{
+    background-position-x: -130px;
+}
+.banner .bannav li:nth-child(3) i{
+    background-position-x: -200px;
+}
+.banner .bannav li:nth-child(4) i{
+    background-position-x: -260px;
+}
+.banner .bannav li:nth-child(5) i{
+    background-position-x: -320px;
+}
+.banner .bannav li p {
+    line-height: 50px;
+    color: #fff;
+}
+.banner .bannav li a {
+    float: left;
+    width: 50%;
+    background-color: #1e73ae;;
+    height: 34px ;
+    line-height: 34px;
+    color: #fff;
+}
+.banner .bannav li a:hover {
+    opacity: 0.8;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    height: 1000px;
+}
+.main .mainbg {
+    float: left;
+    height: 856px;
+    width: 800px;
+    margin-left: -400px;
+    background: url(../完美对战平台/m-csgo.jpg) no-repeat;
+}
+.main>img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+.main .main-f1,
+.main .main-f2,
+.main .main-f3,
+.main .main-f4,
+.main .main-f5,
+.main .main-f6 {
+    width: 1140px;
+    height: 535px;
+    background: url(../完美对战平台/f1-1.png) ;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%)
+
+}
+.main .main-f1 img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+}
+#xian {
+    border-radius: 50%;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    width: 374px;
+    height: 374px;
+}
+#xian>div {
+    animation-fill-mode:both ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 2px solid rgb(255, 255, 255 ,0.6);
+    opacity: 0;
+    animation: quan 3s 0s infinite cubic-bezier(0.21,0.53,0.56,0.8)
+}
+@keyframes quan {
+    0% {
+        transform: scale(0.1) ;
+        opacity: 1;
+    }
+    70% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#xian>div:nth-child(2) {
+    animation-delay:0.75s;
+}
+#xian>div:nth-child(3) {
+    animation-delay:1.5s;
+}
+.main .main-f2  {
+    background: url(../完美对战平台/f1-2.png)
+}
+.main .main-f2 .f2-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 100%;
+    top: 50%;
+    margin-top: -50px;
+    left: 90px;
+    animation: f2zhuan 2s linear 1 ;
+
+}
+.main .main-f2 i {
+    background:url(../完美对战平台/icons.png) -130px -60px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -25px;
+}
+@keyframes f2zhuan {
+    0% {
+        transform:rotateY(0deg)
+    }
+    100% {
+        transform:rotateY(720deg)
+    }
+}
+.main .main-f3{
+    background: url(../完美对战平台/f1-3.png)
+}
+.main .main-f3 img{
+    position: absolute;
+    bottom: 30px;
+}
+.main .main-f3 img:nth-child(1) {
+    left: 50px;
+    animation: f3yidong1 2s ease ;
+}
+.main .main-f3 img:nth-child(2) {
+    left: 150px;
+    animation: f3yidong1 2s ease ;
+}
+.main .main-f3 img:nth-child(3) {
+    left: 260px;
+    animation: f3yidong3 2s ease 3s forwards;
+    opacity: 0;
+}
+.main .main-f3 img:nth-child(4)  {
+    left: 330px;
+    animation: f3yidong2 4s ease ;
+}
+
+@keyframes f3yidong1{
+    0%{
+        transform: translateX(-500px)
+    }
+    100% {
+        transform:translateX(0)
+    }
+}
+@keyframes f3yidong2{
+    0%{
+        transform: translateX(-500px)
+    }
+    50% {
+        transform:translateX(-80px)
+    }
+    60%{
+        transform: translateX(-80px)
+    }
+    100% {
+        transform:translateX(0)
+    }
+}
+@keyframes f3yidong3{
+    0%{
+        transform: translateY(100px);
+        opacity: 0.7;
+    }
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+.main .main-f4 {
+    background: url(../完美对战平台/f1-4.png)
+}
+.main .main-f4 .f4-box {
+    position: absolute;;
+    top: 30%;
+    padding-left: 25%;
+}
+.main .main-f4 .f4-box .f4-box1 {
+    float: left;
+    margin-right: 40px;
+    
+}
+.main-f4 .f4-box .f4-box1>div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.main-f4 .f4-box .f4-box1>div img {
+    display: block;
+    margin: 20px auto;
+    
+}
+.main-f4 .f4-box .f4-box1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+.main-f4 .f4-box .f4-box1:nth-child(1)>div {
+    /* transition: all 1s linear; */
+    animation: f4zhuan 1.5s ease ;
+}
+.main-f4 .f4-box .f4-box1:nth-child(2)>div {
+    /* transition: all 2s linear 1s; */
+    animation: f4zhuan 1.5s ease  1.5s ;
+}
+.main-f4 .f4-box .f4-box1:nth-child(3)>div {
+    animation: f4zhuan 1.5s ease  3s;
+    /* transition: all 1s linear 2s ; */
+}
+.main-f4 .f4-box .f4-box1:nth-child(4)>div {
+    animation: f4zhuan 1.5s ease  4.5s ;
+    /* transition: all 1s linear 3s ; */
+}
+@keyframes f4zhuan {
+    0% {
+        transform: rotateY(0%)
+    }
+    100%{
+        transform: rotateY(360deg)
+    }
+}
+
+.main .main-f5 {
+    background: url(../完美对战平台/f1-5.png)
+}
+.main .main-f5 .f5-img1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 60%;
+    animation: f5zhuan 2s ease 1 forwards;
+}
+
+
+@keyframes f5zhuan {
+    from{
+        transform: rotateY(360deg) translateY(-50%)
+    }
+    to {
+        transform: rotateY(0) translateY(-50%)
+    }
+}
+.main .main-f5  img:nth-child(n+2) {
+    position: absolute;
+    opacity: 0;
+}
+.main .main-f5 .i1{
+    left: 50%;
+    top: 20%;
+    animation: f5zhuan-i1 2s ease 1 2s forwards;
+}
+.main .main-f5 .i2{
+    left: 80%;
+    top: 15%;
+    animation: f5zhuan-i2 2s ease 1 3s forwards;
+}
+.main .main-f5 .i3{
+    left: 50%;
+    top: 70%;
+    animation: f5zhuan-i3 2s ease 1 5s forwards;
+}
+.main .main-f5 .i4{
+    left: 80%;
+    top: 70%;
+    animation: f5zhuan-i4 2s ease 1 4s forwards;
+}
+@keyframes f5zhuan-i1 {
+    0% {
+        opacity: 0;;
+        transform: translate(50px, 50px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+@keyframes f5zhuan-i2 {
+    0% {
+        opacity: 0;;
+        transform: translate(-50px, 50px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+@keyframes f5zhuan-i3 {
+    0% {
+        opacity: 0;;
+        transform: translate(50px, -50px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+@keyframes f5zhuan-i4 {
+    0% {
+        opacity: 0;;
+        transform: translate(-50px, -50px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+.main .main-f6 {
+    background: url(../完美对战平台/f1-6.png);
+}
+.main .main-f6 .f6-box1 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    /* border: 1px solid #fff; */
+    /* border-bottom: rgba(255, 255, 255,0); */
+    border-radius: 160px;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    animation: f6zhuan 5s linear infinite;
+}
+.main .main-f6 .f6-box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+.main .main-f6  .f6-img1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) ;
+}
+.main .main-f6  .f6-img2{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%) 
+}
+.main .main-f6  .f6-img3{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%) 
+}
+@keyframes f6zhuan {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+.main .main-f6  .f6-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+.footer {
+    width: 1200px;
+    height: 500px;
+    margin: -140px auto;
+    position: relative;
+    z-index: 2;
+}
+.footer li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.footer li:nth-child(5) {
+    margin-left: 25%;
+}
+.footer li i {
+    display: block;
+    margin: 0 auto;
+    background: url(../完美对战平台/icons.png) -68px -60px;
+    width: 50px;
+    height: 50px;
+}
+.footer li p {
+    line-height: 20px;
+   
+}
+.footer li .p2 {
+    color: #2291df;
+    font-size: 16px;
+}
+.footer li .p1 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer li .p3 {
+    color: #676767;
+}
+.footer li:nth-child(2) i {
+    background-position-x: -130px;
+}
+.footer li:nth-child(3) i {
+    background-position-x: -200px;
+}
+.footer li:nth-child(4) i {
+    background-position-x: -260px;
+}
+.footer li:nth-child(5) i {
+    background-position: -320px -60px;
+}
+.footer li:nth-child(6) i {
+    background-position-x: -368px;
+}
+.footer li:hover .p1 {
+    color: #2291df;
+}
+.footer li:hover i {
+    background-position-y: -120px;
+}
+.footer .foot-logo {
+    display: block;
+    margin: 0 auto;
+}
+.footer .foot-p1 {
+    text-align: center;
+    font-size: 24px;
+    color: #858585;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.footer .foot-a1 {
+    width: 236px;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    font-size: 16px;
+    padding: 15px 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: #c8c8c8;
+    opacity: 0.8;
+}
+.footer .foot-a1:hover {
+    opacity: 1;
+}
+.footer .foot-logo1 {
+    display: block;
+    margin: 30px auto;
+}
+.footer .foot-p2 {
+    text-align: center;
+    color: #858585;
+    line-height: 20px;
+}
+.footer .foot-p2:last-child {
+    margin-bottom: 100px;
+}
+
+
